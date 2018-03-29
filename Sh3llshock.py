@@ -99,13 +99,13 @@ def main():
 								"(.{32})", "\\1 \n",
 								shellcode, 0, re.DOTALL)
 					
-					print(shellcode[:-1])
+					print(shellcode[::])
 					print("\n[+] We have a shellcode....")
 				else:
 					shellcode = re.sub(
 								"(.{32})", "\\1\n",
 								shellcode, 0, re.DOTALL)
-					print(shellcode[:-1])
+					print(shellcode[::])
 		else:
 			assert False, "unhandled option"
 
