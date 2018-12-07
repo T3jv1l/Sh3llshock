@@ -100,7 +100,7 @@ def main():
 								shellcode, 0, re.DOTALL)
 					
 					print(shellcode[::])
-					print("\n[+] We have a shellcode....")
+					print("[+] We have a shellcode....")
 				else:
 					shellcode = re.sub(
 								"(.{32})", "\\1\n",
