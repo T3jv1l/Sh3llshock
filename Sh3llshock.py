@@ -60,7 +60,7 @@ def logo():
 	print "      <<<<<<Contact for bug t3jv1l@gmail.com>>>>>> " + color.END
 	print color.HEADER + ""
 	print "            Usage:  [argument] [file] [argument]:" 
-	print "      -f    --file     The ASM code filename"
+	print "      -f    --file     The Elf x84/x64 file"
 	print "      -s    --show     Show shellcode"
 	print "      -i    --intel    Syntax" 
 	print " Example: ./Sh3llshock.py -f '/home/T3jv1l/Desktop/Python/hello.o' -s" + color.END
